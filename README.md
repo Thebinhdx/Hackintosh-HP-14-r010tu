@@ -33,7 +33,7 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 
 ### Download:
 
-click here
+[EFI Zip](https://github.com/Thebinhdx/Hackintosh-HP14-r010tu/blob/main/EFI.7z)
 
 >[!NOTE]
 **Once you have the EFI folder, you need to go into config.plist and edit the serial number, ROM, UUID, etc., to be different from the original. Save the changes and place them in your EFI partition so you can boot into macOS.**
