@@ -50,15 +50,15 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 | **CPU**         | Intel® I5-4210U                    | Intel                             |
 | **IGPU**        | Intel® HD 4400                     | Intel                             |
 | **RAM**         | DDR3 4GB / 1600MHz                 | Unknown                           |
-| **Storage**     | 224GB SSD                          | Kingston                          |
+| **Storage**     | 224GB SSD (Replace old HDD 500GB)  | Kingston                          |
 | **Ethernet**    | Realtek PCIe FE Family Controller  | Realtek                           |
 | **Audio**       | Realtek High Definition Audio      | Realtek                           |
 | **Wifi**        | Ralink RT3290 (NOT SUPPORTED)      | Mediatek                          |
 | **SD**          | Realtek PCIE CardReader            | Realtek                           |
-| **Camera**      | ?                                  | ?                                 |
+| **Camera**      | HP Truevision HD                   | ?                                 |
 | **CDROM**       | ?                                  | ?                                 |
 
-**NOTE: Change wifi card with intel card like AX210**
+**NOTE: Change wifi card with intel card like AX210, AC 7260, ...**
 
 </details>
 
