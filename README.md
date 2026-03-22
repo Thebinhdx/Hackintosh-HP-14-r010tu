@@ -72,9 +72,17 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 
 **Note: This is only available if you haven't made too many deep modifications to my config.plist.**
 
+## Monterey:
+
 ### 💡Backlight issues:
 
 - The backlight will dim when the Apple logo appears. Even with the toggle switch, it won't work unless you put the computer to sleep and wake it up, then it will return to normal.
 - If you want to use it, change the `platform-id` to `0A026006`. Besides the trade-offs, you'll experience lag with 4MB of graphics card usage and you won't be able to adjust the brightness, although it will turn on instantly when you use it.
+
+## Ventura and Newer:
+>[!NOTE]
+**EFI Folder is in testing.**
+
+-Currently encountering the error `In Memory Panic Stackshot succeeded`. I will try to find a way to fix it.
 
 </details>
