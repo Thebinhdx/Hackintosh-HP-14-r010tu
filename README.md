@@ -36,7 +36,12 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 
 ### Download:
 
-[EFI Monterey](https://github.com/Thebinhdx/Hackintosh-HP14-r010tu/blob/main/EFI.7z)
+[**EFI Monterey**](https://github.com/Thebinhdx/Hackintosh-HP14-r010tu/blob/main/EFI.7z)
+
+[**EFI Sequoia**](https://drive.google.com/file/d/19IJIkK5WoACoarBayHbA0EIQbfx4Xt6A/view?usp=sharing)
+
+>[!NOTE]
+**I need help fixing EFI Folder for Sequoia!**
 
 >[!NOTE]
 **Once you have the EFI folder, you need to go into config.plist and edit the serial number, ROM, UUID, etc., to be different from the original. Save the changes and place them in your EFI partition so you can boot into macOS.**
