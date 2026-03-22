@@ -8,7 +8,7 @@ This repository and project hosts the files necessary to boot for the HP 14-r010
 **EFI only works on macOS Monterey and not on higher versions.**
 
 >[!NOTE]
-**Currently conducting tests on the Sequoia version.**
+**Currently conducting tests on the Ventura/Sonoma/Sequoia version. NOT Tahoe**
 
 >[!WARNING]
 **NOT SURE WORK OR TESTED ON OTHER LAPTOP/DESKTOP**
@@ -38,10 +38,10 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 
 [**EFI Monterey**](https://github.com/Thebinhdx/Hackintosh-HP14-r010tu/blob/main/EFI.7z)
 
-[**EFI Sequoia** (Memory Panic Stackshot](https://drive.google.com/file/d/19IJIkK5WoACoarBayHbA0EIQbfx4Xt6A/view?usp=sharing)
+[**EFI Ventura/Sonoma/Sequoia** (Memory Panic Stackshot](https://drive.google.com/file/d/19IJIkK5WoACoarBayHbA0EIQbfx4Xt6A/view?usp=sharing)
 
 >[!NOTE]
-**I need help fixing EFI Folder for Sequoia!**
+**I need help fixing EFI Folder for Ventura/Sonoma/Sequoia!**
 
 >[!NOTE]
 **Once you have the EFI folder, you need to go into config.plist and edit the serial number, ROM, UUID, etc., to be different from the original. Save the changes and place them in your EFI partition so you can boot into macOS.**
