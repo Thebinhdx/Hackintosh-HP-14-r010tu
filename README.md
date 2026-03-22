@@ -7,6 +7,9 @@ This repository and project hosts the files necessary to boot for the HP 14-r010
 >[!WARNING]
 **EFI only works on macOS Monterey and not on higher versions.**
 
+>[!NOTE]
+**Currently conducting tests on the Sequoia version.**
+
 >[!WARNING]
 **NOT SURE WORK OR TESTED ON OTHER LAPTOP/DESKTOP**
 
