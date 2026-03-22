@@ -46,6 +46,9 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 >[!NOTE]
 **Once you have the EFI folder, you need to go into config.plist and edit the serial number, ROM, UUID, etc., to be different from the original. Save the changes and place them in your EFI partition so you can boot into macOS.**
 
+>[!NOTE]
+**Please download itlwm and Bluetoothfix for use with Intel cards. I don't have the EFI folder available yet because I haven't used it before when I replaced the card.**
+
 <hr>
 
 <details>
@@ -53,20 +56,20 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 
 <br />
 
-| Components      | Name                               | Brand Links                       |
-| --------------- | -----------------------------------| ----------------------------------|
-| **CPU**         | Intel® I5-4210U                    | Intel                             |
-| **IGPU**        | Intel® HD 4400                     | Intel                             |
-| **RAM**         | DDR3 4GB / 1600MHz                 | Unknown                           |
-| **Storage**     | 224GB SSD (Replace old HDD 500GB)  | Kingston                          |
-| **Ethernet**    | Realtek PCIe FE Family Controller  | Realtek                           |
-| **Audio**       | Realtek High Definition Audio      | Realtek                           |
-| **Wifi**        | Ralink RT3290 (NOT SUPPORTED)      | Mediatek                          |
-| **SD**          | Realtek PCIE CardReader            | Realtek                           |
-| **Camera**      | HP Truevision HD                   | ?                                 |
-| **CDROM**       | ?                                  | ?                                 |
+| Components        | Name                                               | Brand Links                       |
+| ------------------| ---------------------------------------------------| ----------------------------------|
+| **CPU**           | Intel® I5-4210U                                    | Intel                             |
+| **IGPU**          | Intel® HD 4400                                     | Intel                             |
+| **RAM**           | DDR3 8GB / 1600MHz (Replace 4GB)                   | Unknown                           |
+| **Storage**       | 224GB SSD (Replace old HDD 500GB)                  | Kingston                          |
+| **Ethernet**      | Realtek PCIe FE Family Controller                  | Realtek                           |
+| **Audio**         | Realtek High Definition Audio                      | Realtek                           |
+| **Wifi/Bluetooth**| Intel® Wireless card AC7260 (Replace Ralink RT3290)| Intel                             |
+| **SD**            | Realtek PCIE CardReader                            | Realtek                           |
+| **Camera**        | HP Truevision HD                                   | ?                                 |
+| **CDROM**         | ?                                                  | ?                                 |
 
-**NOTE: Change wifi card with intel card like AX210, AC 7260, ...**
+**Note: Please download itlwm and Bluetoothfix for use with Intel cards. I don't have the EFI folder available yet because I haven't used it before when I replaced the card.**
 
 </details>
 
