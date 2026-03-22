@@ -36,7 +36,7 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 
 ### Download:
 
-[**EFI Monterey**](https://github.com/Thebinhdx/Hackintosh-HP14-r010tu/blob/main/EFI.7z)
+[**EFI Monterey**](https://github.com/Thebinhdx/Hackintosh-HP14-r010tu/blob/main/EFI-Monterey.7z)
 
 [**EFI Ventura/Sonoma/Sequoia** (Memory Panic Stackshot)](https://drive.google.com/file/d/19IJIkK5WoACoarBayHbA0EIQbfx4Xt6A/view?usp=sharing)
 
