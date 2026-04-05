@@ -34,25 +34,8 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 
 <hr>
 
-### Download:
-
-[**EFI Monterey**](https://github.com/Thebinhdx/Hackintosh-HP14-r010tu/blob/main/EFI-Monterey.7z)
-
-[**EFI Ventura/Sonoma/Sequoia** (Memory Panic Stackshot)](https://drive.google.com/file/d/19IJIkK5WoACoarBayHbA0EIQbfx4Xt6A/view?usp=sharing)
-
->[!NOTE]
-**I need help fixing EFI Folder for Ventura/Sonoma/Sequoia!**
-
->[!NOTE]
-**Once you have the EFI folder, you need to go into config.plist and edit the serial number, ROM, UUID, etc., to be different from the original. Save the changes and place them in your EFI partition so you can boot into macOS.**
-
->[!NOTE]
-**Please download itlwm and Bluetoothfix for use with Intel cards. I don't have the EFI folder available yet because I haven't used it before when I replaced the card.**
-
-<hr>
-
 <details>
-<summary><strong>Hardware specifications:</strong></summary>
+<summary><strong>💻Hardware specifications:</strong></summary>
 
 <br />
 
@@ -74,7 +57,7 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 </details>
 
 <details>
-<summary><strong>Problem:</strong></summary>
+<summary><strong>⚠️Problem:</strong></summary>
 
 <br />
 
@@ -94,3 +77,20 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 -Currently encountering the error `In Memory Panic Stackshot succeeded`. I will try to find a way to fix it.
 
 </details>
+
+<hr>
+
+### Download:
+
+[**EFI Monterey**](https://github.com/Thebinhdx/Hackintosh-HP14-r010tu/blob/main/EFI-Monterey.7z)
+
+[**EFI Ventura/Sonoma/Sequoia** (Memory Panic Stackshot)](https://drive.google.com/file/d/19IJIkK5WoACoarBayHbA0EIQbfx4Xt6A/view?usp=sharing)
+
+>[!NOTE]
+**I need help fixing EFI Folder for Ventura/Sonoma/Sequoia!**
+
+>[!NOTE]
+**Once you have the EFI folder, you need to go into config.plist and edit the serial number, ROM, UUID, etc., to be different from the original. Save the changes and place them in your EFI partition so you can boot into macOS.**
+
+>[!NOTE]
+**Please download itlwm and Bluetoothfix for use with Intel cards. I don't have the EFI folder available yet because I haven't used it before when I replaced the card.**
