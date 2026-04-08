@@ -2,7 +2,7 @@
 
 <hr>
 
-This repository and project hosts the files necessary to boot for the HP 14-r010tu laptop running macOS Monterey or newer.
+This repository and project hosts the files necessary to boot for the HP 14-r010tu laptop running macOS Monterey (or newer soon...)
 
 >[!WARNING]
 **EFI only works on macOS Monterey and not on higher versions.**
