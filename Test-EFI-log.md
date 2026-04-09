@@ -1,0 +1,119 @@
+<h1 align="center">💻HP 14-r010tu Hackintosh</h1>
+
+<p align="center">This is a log of tests to check if the EFI are working.</p>
+
+<hr>
+
+## EFI-Monterey Logs:
+- Worked (⚠️Only problem with backlight!)
+
+## EFI-Ventura Logs:
+- ?
+
+## EFI-Sonoma Logs:
+- ?
+
+## EFI-Sequoia Logs:
+### Lastest Test:
+
+- ⚠️Kernel Panic issues
+
+- LOG File:
+```
+00:000 00:000 AAPL: #[EB.H.IS|!] Err(0xE) <- RT.GV boot-signature 7C436110-AB2A-4BBB-A880-FE41995C9F82
+00:676 00:676 AAPL: #[EB.H.IS|!] Err(0xE) <- RT.GV boot-image-key 7C436110-AB2A-4BBB-A880-FE41995C9F82
+00:770 00:094 AAPL: #[EB|H:IS] 0
+00:846 00:076 AAPL: #[EB|LOG:INIT] 2026-04-09T12:22:22
+01:502 00:655 AAPL: #[EB|VERSION] <"bootbase.efi 577~170 (Official), built 2023-04-15T04:14:26-0700">
+01:571 00:068 AAPL: #[EB|BUILD] <"BUILD-INFO[400]:{"DisplayName":"bootbase.efi","DisplayVersion":"577~170","RecordUuid":"66DF046F-46FD-4D43-8276-80823DCE6890","BuildTime":"2023-04-15T04:14:26-0700","ProjectName":"efiboot","ProductName":"bootbase.efi","SourceVersion":"577","BuildVersion":"170","BuildConfiguration":"Release","BuildType":"Official","Compiler":"clang-1403.0.22.11","SdkVersion":"13.4","SdkBuild":"22F47","TargetArchitectures":"x86_64"}">
+01:637 00:066 AAPL: #[EB.CFG.DEV|!] Err(0xE) <- RT.GV booter-strict-xmlparser 7C436110-AB2A-4BBB-A880-FE41995C9F82
+01:715 00:077 AAPL: #[EB|CFG:DEV] r5 0x0 0x0
+01:779 00:064 AAPL: #[EB|H:IS] 0
+01:842 00:062 AAPL: #[EB|WL:MODE] 0
+01:904 00:062 AAPL: #[EB|CFG:ARG] boot-save-log 0x0000000000000002 (0x0000000000000002 < 0xFFFFFFFFFFFFFFFF) default
+01:985 00:080 AAPL: #[EB|CFG:ARG] wake-save-log 0x0000000000000002 (0x0000000000000002 < 0x0000000000000002) default
+02:049 00:064 AAPL: #[EB|CFG:ARG] console       0x0000000000000001 (0x0000000000000001 < 0x0000000000000001) default
+02:112 00:062 AAPL: #[EB|CFG:ARG] serial        0x0000000000000001 (0x0000000000000001 < 0x0000000000000000) default
+02:175 00:063 AAPL: #[EB|CFG:ARG] preoslog      0x0000000000000001 (0x0000000000000001 < 0xFFFFFFFFFFFFFFFF) default
+02:256 00:080 AAPL: #[EB|CFG:ARG] timestamps    0x0000000000000000 (0x0000000000000000 < 0xFFFFFFFFFFFFFFFF) default
+02:896 00:639 AAPL: #[EB|CFG:ARG] log-level     0x0000000000000001 (0x0000000000000001 & 0x0000000000000021) default
+02:972 00:076 AAPL: #[EB|CFG:ARG] breakpoint    0x0000000000000000 (0x0000000000000000 & 0x0000000000000000) default
+03:076 00:103 AAPL: #[EB|CFG:ARG] kc-read-size  0x0000000000100000 (0x0000000000100000 < 0xFFFFFFFFFFFFFFFF) default
+03:174 00:098 AAPL: #[EB|CFG:ARG] force-error   0x0000000000000000 (0x0000000000000000 & 0x0000000000000000) default
+03:238 00:063 AAPL: #[EB|H:IS] 0
+03:301 00:063 AAPL: #[EB|WL] 0 0 0x01 0x01   0 0x00
+03:368 00:066 AAPL: #[EB|BRD:NV] Mac-E7203C0F68AA0004
+03:447 00:079 AAPL: #[EB|B:VAw]
+03:509 00:061 AAPL: #[EB|B:IAw]
+03:572 00:063 AAPL: #[EB|WL] 0 0 0x01 0x01   2 0x00
+03:636 00:063 AAPL: #[EB.BST.IDT|+]
+03:714 00:078 AAPL: #[EB|BM] J223AP
+03:778 00:063 AAPL: #[EB.BST.IDT|-]
+03:841 00:063 AAPL: #[EB|WL] 0 0 0x01 0x01   3 0x00
+03:906 00:064 AAPL: #[EB|WL] 0 0 0x01 0x01   4 0x00
+03:984 00:078 AAPL: #[EB|BRD:NV] Mac-E7203C0F68AA0004
+04:046 00:061 AAPL: #[EB|WL] 0 0 0x01 0x01   5 0x00
+04:688 00:642 AAPL: #[EB.H.CHK|BM] 0x0000000000000000
+04:764 00:076 AAPL: #[EB.H.LV|!] Err(0xE) <- RT.GV boot-signature 7C436110-AB2A-4BBB-A880-FE41995C9F82
+04:869 00:104 AAPL: #[EB|WL] 0 0 0x01 0x01  23 0x0E
+04:947 00:078 AAPL: #[EB.H.LV|!] Err(0xE) <- RT.GV boot-image-key 7C436110-AB2A-4BBB-A880-FE41995C9F82
+05:009 00:061 AAPL: #[EB|WL] 0 0 0x01 0x01  24 0x0E
+05:072 00:063 AAPL: #[EB.H.LV|!] Err(0xE) <- RT.GV boot-image 7C436110-AB2A-4BBB-A880-FE41995C9F82
+05:150 00:078 AAPL: #[EB.H.LV|!] Err(0xE) <- RT.SV- boot-signature 7C436110-AB2A-4BBB-A880-FE41995C9F82
+05:214 00:063 AAPL: #[EB.H.LV|!] Err(0xE) <- RT.SV- boot-image-key 7C436110-AB2A-4BBB-A880-FE41995C9F82
+05:275 00:061 AAPL: #[EB.H.LV|!] Err(0xE) <- RT.SV- boot-image 7C436110-AB2A-4BBB-A880-FE41995C9F82
+05:338 00:063 AAPL: #[EB|H:NOT]
+05:404 00:065 AAPL: #[EB|SB:P] 0x0
+05:468 00:063 AAPL: #[EB|LIMG:DP] VenMedia(957932CC-7E8E-433B-8F41-D391EA3C10F8)/MemMap(10:100000000-100001000)/DMG_000000002A1D6190.dmg/VenMedia(004B07E8-0B9C-427E-B0D4-A466E6E57A62)/HD(Part1,Sig7CB93107-5781-4FE7-8C4E-74098019E4ED)
+05:529 00:060 AAPL: #[EB|LIMG:FP] \System\Library\CoreServices\boot.efi
+05:593 00:063 AAPL: #[EB|LIMG:OPT] 
+05:659 00:066 AAPL: #[EB.B.OBV|BM:+DMG]
+05:723 00:064 AAPL: #[EB.B.OBV|BM:+ROS]
+05:785 00:061 AAPL: #[EB|RPS] 0 0 0
+06:433 00:647 AAPL: #[EB.OPT.LXF|F] <"\\System\\Library\\CoreServices\\com.apple.Boot.plist">
+06:510 00:077 AAPL: #[EB.LD.LF|IN] 0 1 <"\\System\\Library\\CoreServices\\com.apple.Boot.plist"> <"0">
+06:607 00:096 AAPL: #[EB.LD.OFS|OPEN!] Err(0xE) <"\\System\\Library\\CoreServices\\com.apple.Boot.plist">
+06:689 00:082 AAPL: #[EB.OPT.LXF|LF!] Err(0xE)
+06:749 00:060 AAPL: #[EB.OPT.LXF|F] <"Library\\Preferences\\SystemConfiguration\\com.apple.Boot.plist">
+06:814 00:064 AAPL: #[EB.LD.LF|IN] 0 1 <"Library\\Preferences\\SystemConfiguration\\com.apple.Boot.plist"> <"0">
+06:893 00:079 AAPL: #[EB|KF] <"">
+06:965 00:071 AAPL: #[EB|MBA:CL] <"">
+07:025 00:060 AAPL: #[EB|MBA:NV] <"-v debug=0x100 alcid=4 keepsyms=1 -no_compat_check amfi_get_out_of_my_way=0x1 ipc_control_port_options=0">
+07:091 00:065 AAPL: #[EB|MBA:KF] <"">
+07:155 00:063 AAPL: #[EB|MBA:OUT] <"-v debug=0x100 alcid=4 keepsyms=1 -no_compat_check amfi_get_out_of_my_way=0x1 ipc_control_port_options=0">
+07:218 00:062 AAPL: #[EB|LOG:VERBOSE] 2026-04-09T12:22:28
+07:278 00:060 AAPL: #[EB|OPT:BM] 0x821082
+07:343 00:065 AAPL: #[EB.B.MN|BM:ROS]
+07:407 00:064 AAPL: #[EB|WL] 0 0 0x01 0x01  19 0x0E
+07:471 00:063 AAPL: #[EB.OPT.RKS|!] Err(0xE) <- BS.LocP EDB4A040-6D8A-11EC-8FAD-3E22FB93ADCF
+07:532 00:060 AAPL: #[EB.CS.CSKSD|+]
+08:176 00:644 AAPL: #[EB.G.CS|-?] Ok(0)
+08:276 00:100 AAPL: #[EB.LD.LF|IN] 0 1 <"<null string>"> <"1">
+08:387 00:110 AAPL: #[EB.B.SBS|SZ] 723512
+08:481 00:094 AAPL: #[EB|B:SHA] <520e7ee6a29135b4538f361361fd2dad6e20c65f>
+08:550 00:068 AAPL: #[EB.WL.PWLFNV|!] Err(0xE) <- RT.GV wake-failure 7C436110-AB2A-4BBB-A880-FE41995C9F82
+08:616 00:066 AAPL: #[EB.WL.DT|!] Err(0xE) <- EB.WL.PWLFNV
+08:693 00:076 AAPL: #[EB|WL:DT] 0xffffffbf
+08:762 00:069 AAPL: #[EB.LD.LKC|R.1] <"System\Library\KernelCollections\BootKernelExtensions.kc">
+12:879 04:116 AAPL: #[EB.LD.LKFS|-?] Ok(0)
+13:546 00:667 AAPL: #[EB.LD.LKC|-?] Ok(0)
+13:635 00:089 AAPL: #[EB|BST:REV1]
+13:712 00:076 AAPL: #[EB|CSR:IN] 0x00000FFF
+14:372 00:660 AAPL: #[EB|CSR:OUT] 0x00000FEF
+14:439 00:066 AAPL: #[EB.BST.FBS|+]
+14:505 00:065 AAPL: #[EB.BST.FBS|ADSZ] 0
+14:583 00:078 AAPL: #[EB.BST.FBS|KSSZ] 0
+14:649 00:066 AAPL: #[EB|SB:SBGMFNS] j223ap.im4m
+14:713 00:064 AAPL: #[EB|RH:PF] usr\standalone\OS.dmg.root_hash
+14:779 00:065 AAPL: #[EB|RH:MF] <"usr\\standalone\\OS.dmg.root_hash.j223ap.im4m">
+14:862 00:083 AAPL: #[EB.LD.LF|IN] 0 1 <"usr\\standalone\\OS.dmg.root_hash"> <"0">
+14:939 00:076 AAPL: #[EB.LD.OFS|OPEN!] Err(0xE) <"usr\\standalone\\OS.dmg.root_hash">
+15:004 00:065 AAPL: #[EB.RH.LRH|P!] Err(0xE) <- EB.LD.LF
+15:069 00:064 AAPL: #[EB.BST.FBS|!] Err(0xE) <- EB.RH.LRH
+15:151 00:082 AAPL: #[EB|LOG:DT] 2026-04-09T12:22:36
+15:791 00:639 AAPL: #[EB|LOG:EXITBS:START] 2026-04-09T12:22:37
+```
+
+## EFI-Tahoe Logs:
+
+**NOT Tahoe**
