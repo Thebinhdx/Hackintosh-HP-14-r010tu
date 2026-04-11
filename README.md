@@ -52,7 +52,6 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 | **Camera**        | HP Truevision HD                                   | ?                                 |
 | **CDROM**         | ?                                                  | ?                                 |
 
-**Note: Please download itlwm and Bluetoothfix for use with Intel cards. I don't have the EFI folder available yet because I haven't used it before when I replaced the card.**
 
 </details>
 
@@ -65,9 +64,13 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 
 ## Monterey:
 
-### 💡Backlight issues:
+### 💡Backlight issue:
 
 - The backlight will dim when the Apple logo appears. Even with the toggle switch, it won't work unless you put the computer to sleep and wake it up, then it will return to normal.
+
+### 🔋Battery issue:
+
+- The battery status and capacity displayed are virtual, not real. Need ACPI patch for this issue.
 
 ## Ventura and Newer:
 
