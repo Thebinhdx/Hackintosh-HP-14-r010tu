@@ -81,7 +81,7 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 
 ### Download:
 
-[**EFI Monterey**](https://github.com/Thebinhdx/Hackintosh-HP14-r010tu/blob/main/EFI-Monterey.7z)
+[**EFI Monterey v1.2**](https://drive.google.com/file/d/1B5d-B2dgk0ZWq5Maw1VC8GqmexCMDvSJ/view?usp=sharing)
 
 [**EFI Ventura/Sonoma/Sequoia** (Memory Panic Stackshot)](https://drive.google.com/file/d/19IJIkK5WoACoarBayHbA0EIQbfx4Xt6A/view?usp=sharing)
 
