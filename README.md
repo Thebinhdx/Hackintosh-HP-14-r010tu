@@ -92,4 +92,4 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 **Once you have the EFI folder, you need to go into config.plist and edit the serial number, ROM, UUID, etc., to be different from the original. Save the changes and place them in your EFI partition so you can boot into macOS.**
 
 >[!NOTE]
-**Please download itlwm and Bluetoothfix for use with Intel cards. I don't have the EFI folder available yet because I haven't used it before when I replaced the card.**
+**(Only v1.0)Please download itlwm and Bluetoothfix for use with Intel cards. I don't have the EFI folder available yet because I haven't used it before when I replaced the card.**
