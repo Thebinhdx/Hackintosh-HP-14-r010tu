@@ -87,9 +87,6 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 [**EFI Monterey v1.2**](https://drive.google.com/file/d/1B5d-B2dgk0ZWq5Maw1VC8GqmexCMDvSJ/view?usp=sharing)
 
 >[!NOTE]
-**I need help fixing EFI Folder for Ventura/Sonoma/Sequoia!**
-
->[!NOTE]
 **Once you have the EFI folder, you need to go into config.plist and edit the serial number, ROM, UUID, etc., to be different from the original. Save the changes and place them in your EFI partition so you can boot into macOS.**
 
 >[!NOTE]
